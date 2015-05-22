@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_bar"
+>
+    <ImageButton 
+    android:layout_width="37sp"
+    android:layout_height="40sp"
+        android:background="@drawable/back_button"
+    android:id="@+id/baidu_back"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="6sp"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在线"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/baidu_back"
+        />
+    
+        <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/online_music_logo"
+        
+        />
+    
+</RelativeLayout>

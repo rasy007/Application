@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="优雅音乐是黄凯祥独家制作，由于技术问题，使用过程中可能会出现bug，在此深感抱歉，并不定期更新新版本，本人在此严正声明，使用自愿原则，出现任何问题，本人不承担任何责任"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp"
+    android:textSize="19sp"
+        />
+        <Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="如果您有什么意见和建议，请点击这里给我们留言"
+    android:layout_gravity="center_horizontal"
+      android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:textColor="#2452ff"
+    android:background="#00000000"
+    android:id="@+id/xianshishuru"
+     android:textSize="19sp"
+        />
+        <EditText 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:id="@+id/liuyan"
+     android:minLines="3"
+                 android:layout_marginLeft="15sp"
+                 android:hint="请在此输入建议信息"
+    android:layout_marginRight="15sp"
+    android:visibility="gone"
+            />
+        <Button 
+    android:layout_width="100sp"
+    android:layout_height="40sp" 
+    android:layout_gravity="center_horizontal"
+   android:text="提  交"
+     android:background="@drawable/equzesave"
+            android:textColor="#ffffff"
+               android:textSize="25sp"
+               android:visibility="gone"
+               android:id="@+id/tijiao"
+            />
+</LinearLayout><!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/layout/about.xml -->

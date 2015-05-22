@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_weight="1"
+        android:layout_marginLeft="33dp"
+        android:gravity="center_vertical"
+        android:weightSum="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/em_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ececec"
+            android:textSize="14dp"
+            android:text="sasasasasa"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+              <TextView
+        android:id="@+id/em_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="10sp"
+        android:text="sasasasasa"
+        android:textColor="#666666" />
+
+            
+
+        
+    </LinearLayout>
+   <ImageView 
+               android:layout_width="22dip"
+        android:layout_height="35dip"
+       android:layout_centerVertical="true"
+       android:src="@drawable/icon_panel_next_n"
+       android:layout_marginRight="20sp"
+       android:alpha="0.7"
+       android:layout_alignParentRight="true"
+       />
+
+</RelativeLayout>

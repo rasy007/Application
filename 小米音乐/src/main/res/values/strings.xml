@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">优雅音乐</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="jianbian">切换歌曲渐变效果</string>
+    <string name="wangluoy6uny6ingshang">网络运营商</string>
+    <string name="y6unxuxiaohaoliuliangxiazait5upian">允许消耗流量下载图片</string>
+    <string name="y6unxuxiaohaoliuliangxiazait5upmiaoshu">建议wifi下开启</string>
+    <string name="y6unxuxiaohaopliuliangxiazaigeci">允许消耗流量下载歌词</string>
+    <string name="xiazaigecijiany6i">不会消耗太多流量，建议开启</string>
+    <string name="y6unxuxiaohaoliuliangzaixiany6iny6ue">允许消耗流量在线听音乐</string>
+    <string name="kenengchanshengy6unxuxiazaiy6iny6ue">建议wifi下开启</string>
+    <string name="bofangqixianshi">播放器显示</string>
+    <string name="xianshigeci">显示歌词</string>
+    <string name="xianshigecijiany6i">在播放界面显示歌词，建议开启</string>
+    <string name="xianshiy6uny6ieboxing">显示音乐波形</string>
+    <string name="boxinjiany6i">在播放界面显示柱状波形，建议开启</string>
+    <string name="shuaidongqiege">甩动切歌</string>
+    <string name="shuaidongqiehuangequ">甩动切换歌曲</string>
+    <string name="shuiadongqiegemiaoshu">播放时甩动手机切换到下一首</string>
+    <string name="gany6inglingminsu">感应灵敏度</string>
+    <string name="gany6ingdi">低</string>
+    <string name="gany6inggao">高</string>
+    <string name="pingmudianliangshiaidongy6ouxiao">屏幕点亮时甩动有效</string>
+    <string name="bimianwushengxiao">仅亮屏时有效，避免颠簸误生效</string>
+    <string name="qit5ashezhi">其他设置</string>
+    <string name="shit5ingmoshi">开启试听模式</string>
+    <string name="shimiaoxiay6ishou">歌曲播放到10秒时自动切换到下一首</string>
+    <string name="beiguangchangliang">屏幕背光常亮</string>
+    <string name="jiemianbeiguangchangliang">播放界面屏幕背光常亮</string>
+    <string name="t5uichujiy6iweizhi">记忆退出位置</string>
+    <string name="daksishengcibofangweizhi">打开音乐时进入上次退出位置</string>
+    <string name="y6iliangjianbian">前后歌曲切换时音量平滑过度</string>
+    <string name="y6ouy6ay6iny6uexiangshouy6ouy6a">优雅音乐，享受优雅</string>
+    <string name="musict5ext5">music</string>
+    <string name="gequ222">歌曲 | 222</string>
+    <string name="gesghou111">歌手 | 111</string>
+    <string name="zhuanji2t5t5">专辑 | 255</string>
+    <string name="sousuoaaaa">搜索</string>
+    <string name="zaixiany6iny6ue">在线音乐</string>
+    <string name="bofangliebiao">收藏列表</string>
+    <string name="quedingeee">确定</string>
+    <string name="shoudongeee">手动</string>
+    <string name="endt5ime">03:20</string>
+    <string name="allmusic">999</string>
+    <string name="fengexian">/</string>
+    <string name="current5music">0</string>
+    <string name="st5art5t5ime">00:00</string>
+    <string name="musicname">优雅音乐，享受优雅</string>
+    <string name="sinername">优雅音乐</string>
+
+    <array name="album_options">
+        <item>Song List</item>
+        <item>Change Album Art</item>
+    </array>
+
+</resources>

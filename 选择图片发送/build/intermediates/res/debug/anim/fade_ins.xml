@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="20"
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0" />
+<!-- From: file:/E:/GitHub/Application2/选择图片发送/src/main/res/anim/fade_ins.xml -->

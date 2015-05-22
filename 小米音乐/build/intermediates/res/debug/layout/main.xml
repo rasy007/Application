@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_mainindex"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <ImageView
+        android:id="@+id/mainindexbac2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/video_stub_small" />
+
+    <ImageView
+        android:id="@+id/mainindexbac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/video_stub_small" />
+
+    <ImageView
+        android:id="@+id/main_top_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_top_shadow"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/relative122"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- 音乐名 -->
+
+        <TextView
+            android:id="@+id/musicname_main"
+            style="@style/titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="70sp"
+            android:layout_marginTop="20sp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:text="@string/y6ouy6ay6iny6uexiangshouy6ouy6a" />
+
+        <!-- 歌手名 -->
+
+        <TextView
+            android:id="@+id/main_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/musicname_main"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="7sp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:singleLine="true"
+            android:text="@string/musict5ext5"
+            android:textColor="#e0e0e0"
+            android:textSize="14sp" />
+
+        <!-- 播放按钮 -->
+
+        <ImageButton
+            android:id="@+id/play_main"
+            android:layout_width="50sp"
+            android:layout_height="47sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/musicname_main"
+            android:layout_marginRight="17sp"
+            android:background="@drawable/play1"
+            android:contentDescription="@string/action_settings" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomlistlin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/music_land_default_albums" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/textmusic"
+                    style="@style/fourmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="歌曲" />
+
+                <Button
+                    android:id="@+id/textsinger"
+                    style="@style/fourmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="歌手" />
+
+                <Button
+                    android:id="@+id/textlist"
+                    style="@style/fourmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="列表" />
+
+                <Button
+                    android:id="@+id/textonline"
+                    style="@style/fourmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="在线" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/category_item_bg77" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/category_item_bg77" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/category_item_bg77" />
+
+            <ImageView
+                android:id="@+id/tcursor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/textview_panel_arrow_up" />
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vPager"
+            android:layout_width="wrap_content"
+            android:layout_height="200sp"
+            android:background="@drawable/music_land_bg"
+            android:clickable="true"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/layout/main.xml -->

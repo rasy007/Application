@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/buttonquedingandshoudong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/equzechoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="2sp"
+            android:layout_weight="2"
+            android:background="@drawable/equze11"
+            android:text="@string/shoudongeee"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/equzesave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/equzesave"
+            android:text="@string/quedingeee"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/greyhreghsrthbse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonquedingandshoudong"
+        android:layout_marginTop="5sp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/equalizer_surface_bg"
+            android:src="@drawable/equalizer_surface_bg" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/dongtailine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2sp" >
+        </LinearLayout>
+    </FrameLayout>
+
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/gsrherharhehgre"
+       android:layout_alignParentBottom="true"
+       >
+    
+    <ImageView
+        android:id="@+id/inggebgadjust"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:background="@drawable/equalizer_adjust_bgbg"
+         />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/gsrherharhehgre"
+        android:paddingBottom="36sp"
+        android:paddingTop="12sp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12sp"
+            android:layout_weight="0.66666"
+            android:gravity="center_horizontal" >
+
+            <com.cn.ui.MySeekBar
+                android:id="@+id/barvolum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:progressDrawable="@drawable/slider_bg"
+                android:thumb="@drawable/thumbvol" >
+            </com.cn.ui.MySeekBar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="15sp" >
+
+            <com.cn.ui.MySeekBar
+                android:id="@+id/bar2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:progressDrawable="@drawable/slider_bg"
+                android:thumb="@drawable/thumbvol" />
+
+            <com.cn.ui.MySeekBar
+                android:id="@+id/bar3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:progressDrawable="@drawable/slider_bg"
+                android:thumb="@drawable/thumbvol" />
+
+            <com.cn.ui.MySeekBar
+                android:id="@+id/bar4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:progressDrawable="@drawable/slider_bg"
+                android:thumb="@drawable/thumbvol" />
+
+            <com.cn.ui.MySeekBar
+                android:id="@+id/bar5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:progressDrawable="@drawable/slider_bg"
+                android:thumb="@drawable/thumbvol" />
+
+            <com.cn.ui.MySeekBar
+                android:id="@+id/bar6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:progressDrawable="@drawable/slider_bg"
+                android:thumb="@drawable/thumbvol" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+
+     android:minWidth="300dp"
+     android:minHeight="300dp"
+     android:updatePeriodMillis="86400000"
+     android:initialLayout="@layout/widget_main"
+     >
+ </appwidget-provider><!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/xml/appwidget_info.xml -->

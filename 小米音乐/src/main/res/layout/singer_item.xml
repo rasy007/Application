@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+<RelativeLayout
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:id="@+id/gdfht5hft5" >
+    <ImageView
+            android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+         android:src="@drawable/avatar_item_default"
+         android:layout_centerInParent="true"
+        />
+
+    
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:weightSum="1"
+        android:layout_toRightOf="@+id/gdfht5hft5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/simger_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:text="未知歌曲名"
+            android:textStyle="bold" />
+        <LinearLayout 
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2sp"
+            >
+              <TextView
+        android:id="@+id/simger_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:singleLine="true"
+        android:text="03:42"
+        android:textColor="#666666" />
+             <TextView
+        android:layout_width="wrap_content"
+         android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:layout_marginLeft="4sp"
+        android:textColor="#666666" />
+           <TextView
+            android:id="@+id/simger_item_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="10sp"
+            android:layout_marginLeft="4sp"
+            android:text="未知艺术家"
+            android:singleLine="true"
+            android:textColor="#666666"
+             />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+   
+
+</RelativeLayout>

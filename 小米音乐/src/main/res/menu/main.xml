@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/setting" 
+          android:title="设置" 
+          android:visible="true" />
+    <item android:id="@+id/menusearch" 
+          android:title="搜索" 
+          android:visible="true" />
+    <item android:id="@+id/entersleep" 
+          android:title="进入睡眠模式" 
+          android:visible="true" />
+    
+        <item android:id="@+id/settingring" 
+          android:title="设置为来电铃声" 
+          android:visible="true" />
+        
+        
+    <item android:id="@+id/deletecurrent" 
+          android:title="删除当前歌曲" 
+          android:visible="true" />
+    <item android:id="@+id/about" 
+          android:title="关于"  
+          android:visible="true"/>
+    <item android:id="@+id/exit" 
+          android:title="退出"  
+          android:visible="true"/>
+</menu>
