@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/barcodeScanner/barcodeScanner.iml" filepath="$PROJECT_DIR$/barcodeScanner/barcodeScanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment动画/fragment动画.iml" filepath="$PROJECT_DIR$/fragment动画/fragment动画.iml" />
+      <module fileurl="file://$PROJECT_DIR$/图表/图表.iml" filepath="$PROJECT_DIR$/图表/图表.iml" />
       <module fileurl="file://$PROJECT_DIR$/小米便签/小米便签.iml" filepath="$PROJECT_DIR$/小米便签/小米便签.iml" />
       <module fileurl="file://$PROJECT_DIR$/小米音乐/小米音乐.iml" filepath="$PROJECT_DIR$/小米音乐/小米音乐.iml" />
       <module fileurl="file://$PROJECT_DIR$/组合列表/组合列表.iml" filepath="$PROJECT_DIR$/组合列表/组合列表.iml" />
