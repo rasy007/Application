@@ -8,4 +8,4 @@
 				android:drawable="@drawable/icon_addpic_focused" />
 		<item
 				android:drawable="@drawable/icon_addpic_unfocused" />
-</selector><!-- From: file:/E:/GitHub/Application2/选择图片发送/src/main/res/drawable/bt_add_pic.xml -->
+</selector><!-- From: file:/E:/application/选择图片发送/src/main/res/drawable/bt_add_pic.xml -->

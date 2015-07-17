@@ -11,4 +11,4 @@
         android:clickable="true"
         android:divider="@drawable/category_item_bg77" />
 
-</LinearLayout><!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/layout/musiclist.xml -->
+</LinearLayout><!-- From: file:/E:/application/小米音乐/src/main/res/layout/musiclist.xml -->

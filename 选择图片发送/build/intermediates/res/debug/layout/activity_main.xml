@@ -19,4 +19,4 @@
         android:layout_alignTop="@+id/imageView1"
         android:text="上传" />
 
-</RelativeLayout><!-- From: file:/E:/GitHub/Application2/选择图片发送/src/main/res/layout/activity_main.xml -->
+</RelativeLayout><!-- From: file:/E:/application/选择图片发送/src/main/res/layout/activity_main.xml -->

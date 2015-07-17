@@ -3,19 +3,19 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="1.7" />
+        <option name="gradleHome" value="D:\Program Files\android-studio\gradle\gradle-2.4" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/barcodeScanner" />
-            <option value="$PROJECT_DIR$/fragment动画" />
             <option value="$PROJECT_DIR$/图表" />
             <option value="$PROJECT_DIR$/小米便签" />
             <option value="$PROJECT_DIR$/小米音乐" />
             <option value="$PROJECT_DIR$/组合列表" />
+            <option value="$PROJECT_DIR$/组合列表时光轴" />
             <option value="$PROJECT_DIR$/选择图片发送" />
           </set>
         </option>

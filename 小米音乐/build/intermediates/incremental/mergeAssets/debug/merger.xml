@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="21.0.3"><source path="E:\GitHub\Application2\小米音乐\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\assets"/></dataSet><dataSet config="main"><source path="E:\GitHub\Application2\小米音乐\src\main\assets"/></dataSet><dataSet config="debug"><source path="E:\GitHub\Application2\小米音乐\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="21.0.3"><source path="E:\application\小米音乐\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\assets"/></dataSet><dataSet config="main"><source path="E:\application\小米音乐\src\main\assets"/></dataSet><dataSet config="debug"><source path="E:\application\小米音乐\src\debug\assets"/></dataSet></merger>

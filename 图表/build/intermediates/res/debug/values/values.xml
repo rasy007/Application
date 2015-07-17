@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/GitHub/Application2/图表/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/application/图表/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="dp">10dp</dimen>
     <dimen name="historyscore_tb">10dp</dimen>
@@ -9,12 +9,12 @@
     <dimen name="text_size_18">18sp</dimen>
     <dimen name="text_size_20">20sp</dimen>
     <dimen name="text_size_22">22sp</dimen>
-    <!-- From: file:/E:/GitHub/Application2/图表/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/application/图表/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">wireframe</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <!-- From: file:/E:/GitHub/Application2/图表/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/application/图表/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

@@ -3,4 +3,4 @@
 	<item android:id="@+android:id/background" android:drawable="@drawable/vvvvv5_seekbar_bg" />
 	<item android:id="@+android:id/progress" android:drawable="@drawable/vvvvv5_seekbar_bg2" />
 </layer-list>  
-<!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/drawable/seekbar_im.xml -->
+<!-- From: file:/E:/application/小米音乐/src/main/res/drawable/seekbar_im.xml -->

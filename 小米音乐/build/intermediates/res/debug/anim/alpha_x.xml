@@ -5,4 +5,4 @@
     android:interpolator="@android:anim/accelerate_interpolator"
     android:toAlpha="0.0" >
 
-</alpha><!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/anim/alpha_x.xml -->
+</alpha><!-- From: file:/E:/application/小米音乐/src/main/res/anim/alpha_x.xml -->

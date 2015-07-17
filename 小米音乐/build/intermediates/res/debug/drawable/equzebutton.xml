@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:state_pressed="false" android:drawable="@drawable/equalizer_button_n"></item>
     <item android:state_pressed="true" android:drawable="@drawable/equalizer_button_p"></item>
-</selector><!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/drawable/equzebutton.xml -->
+</selector><!-- From: file:/E:/application/小米音乐/src/main/res/drawable/equzebutton.xml -->

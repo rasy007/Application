@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Application2.iml" filepath="$PROJECT_DIR$/Application2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application.iml" filepath="$PROJECT_DIR$/application.iml" />
       <module fileurl="file://$PROJECT_DIR$/barcodeScanner/barcodeScanner.iml" filepath="$PROJECT_DIR$/barcodeScanner/barcodeScanner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fragment动画/fragment动画.iml" filepath="$PROJECT_DIR$/fragment动画/fragment动画.iml" />
       <module fileurl="file://$PROJECT_DIR$/图表/图表.iml" filepath="$PROJECT_DIR$/图表/图表.iml" />
       <module fileurl="file://$PROJECT_DIR$/小米便签/小米便签.iml" filepath="$PROJECT_DIR$/小米便签/小米便签.iml" />
       <module fileurl="file://$PROJECT_DIR$/小米音乐/小米音乐.iml" filepath="$PROJECT_DIR$/小米音乐/小米音乐.iml" />
       <module fileurl="file://$PROJECT_DIR$/组合列表/组合列表.iml" filepath="$PROJECT_DIR$/组合列表/组合列表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/组合列表时光轴/组合列表时光轴.iml" filepath="$PROJECT_DIR$/组合列表时光轴/组合列表时光轴.iml" />
       <module fileurl="file://$PROJECT_DIR$/选择图片发送/选择图片发送.iml" filepath="$PROJECT_DIR$/选择图片发送/选择图片发送.iml" />
     </modules>
   </component>

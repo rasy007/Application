@@ -23,4 +23,4 @@
     <item android:id="@+id/exit" 
           android:title="退出"  
           android:visible="true"/>
-</menu><!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/menu/main.xml -->
+</menu><!-- From: file:/E:/application/小米音乐/src/main/res/menu/main.xml -->

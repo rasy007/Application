@@ -1,7 +1,6 @@
-include ':app'
+include ':组合列表时光轴'
 include ':barcodeScanner'
 include ':选择图片发送'
-include ':fragment动画'
 include ':组合列表'
 include ':小米便签'
 include ':小米音乐'

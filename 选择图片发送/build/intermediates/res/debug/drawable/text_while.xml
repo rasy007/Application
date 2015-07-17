@@ -5,4 +5,4 @@
     <item android:state_focused="true" android:color="#5afea0"/>
     <item android:color="#ffffff"/> 
 
-</selector><!-- From: file:/E:/GitHub/Application2/选择图片发送/src/main/res/drawable/text_while.xml -->
+</selector><!-- From: file:/E:/application/选择图片发送/src/main/res/drawable/text_while.xml -->

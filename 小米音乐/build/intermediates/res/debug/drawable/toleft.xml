@@ -47,4 +47,4 @@ fillAfter表示动画的转换在动画结束后是否被应用；
 fromDegrees为动画起始时物件的角度；
 
 toDegrees为动画结束时物件旋转的角度。   -->
-<!-- From: file:/E:/GitHub/Application2/小米音乐/src/main/res/drawable/toleft.xml -->
+<!-- From: file:/E:/application/小米音乐/src/main/res/drawable/toleft.xml -->

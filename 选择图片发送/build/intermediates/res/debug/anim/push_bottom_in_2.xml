@@ -4,4 +4,4 @@
     android:fromYDelta="100%"
     android:interpolator="@android:anim/decelerate_interpolator"
     android:toYDelta="0" />
-<!-- From: file:/E:/GitHub/Application2/选择图片发送/src/main/res/anim/push_bottom_in_2.xml -->
+<!-- From: file:/E:/application/选择图片发送/src/main/res/anim/push_bottom_in_2.xml -->
