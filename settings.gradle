@@ -1,4 +1,4 @@
-include ':组合列表时光轴'
+include ':组合列表时光轴', ':桌面悬浮窗'
 include ':barcodeScanner'
 include ':选择图片发送'
 include ':组合列表'
